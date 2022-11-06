@@ -19,12 +19,13 @@ const Header = () => {
 }
 const header = StyleSheet.create({
     linearGradient: {
-        borderRadius: 30,
+        borderBottomRightRadius: 20,
+        borderBottomLeftRadius:20,
         height: 150
     },
     button_add: {
         margin: 20,
-        top: '35%',
+        top: '70%',
         justifyContent: 'center',
         alignItems: 'center',
 
